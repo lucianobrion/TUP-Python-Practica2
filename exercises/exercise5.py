@@ -6,7 +6,10 @@ def sumatoria_basico(n: int) -> int:
 
     Restricción: Utilizar un bucle FOR.
     """
-
+    resultado=0
+    for numero in range(n+1):
+        resultado+=numero
+    return resultado
 
 # NO MODIFICAR - INICIO
 assert sumatoria_basico(1) == 1
